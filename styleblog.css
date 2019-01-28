@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    background-color:#1A2930;
+    color: antiquewhite;
+}
+
+
+/*menu*/
+
+
+#menu ul {
+    padding:13px;
+    margin-left:20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right:0px;
+    background-color:#FEDC3D;
+    /*a função abaixo retira a bolinha da trás da lista do menu*/
+    list-style:none;
+    text-align: center;
+}
+
+/*mantem um li do lado do outro*/
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 100px;
+    display: inline-block;
+
+    /* visual do link */
+    font-family:couriernew;
+    background-color:#FEDC3D;
+    color: #0A1612;
+    text-decoration: none;
+    border-bottom:1px solid #0A1612;
+}
+
+#menu ul li a:hover {
+    /*quando passa o mause por cima*/
+    background-color:#1A2930;
+    color: #FEDC3D;
+    border-bottom:3px solid #FEDC3D;
+}
+/*menu*/
+
+h1{
+    text-align: center;
+    font-family: georgia;
+}
+
+#primeira{
+    background color:#1A2930;
+    margin-right:50%;
+    margin-left: 10%;
+    margin-top: -10;
+}
+
+#segundo{
+     background-color:#FEDC3D;
+    color: #0A1612;
+    text-align: justify;
+    margin-left:20px;
+}
+
+pre{
+    font-family:inherit;
+    margin-left:35%;
+    margin-top:69px ;
+}
+
+#foto{
+    margin-bottom: 70;
+    margin-left:100;
+    border-radius: 90%;
+}
+
+#foto1{
+    margin-top: -20%;
+    margin-bottom: 70;
+    margin-left:60%;
+    border-radius: 90%;
+}
+
+#preprimeira{
+    font-family:inherit;
+    margin-left:60px;
+    margin-top:69px ;
+}
